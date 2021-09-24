@@ -1,0 +1,12 @@
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\bin\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.deps.json
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\bin\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.dll
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\bin\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.pdb
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\bin\Debug\netstandard2.1\GestionAeropuertos.App.Dominio.dll
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\bin\Debug\netstandard2.1\GestionAeropuertos.App.Dominio.pdb
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.AssemblyInfo.cs
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.csproj.CopyComplete
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.dll
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Persistencia\obj\Debug\netstandard2.1\GestionAeropuertos.App.Persistencia.pdb

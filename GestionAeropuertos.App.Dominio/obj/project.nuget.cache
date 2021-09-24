@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7H+qo5VZgVEt3la2DmneLEAyFeDRezE9UBjMPlCydGD42vQJeTwmKGx0yyMMwo+a6FD7l+ZVSKPuea9lgnVvoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edwin Henao\\Desktop\\ProyectoCiclo3\\GestionAeropuertos.App\\GestionAeropuertos.App.Dominio\\GestionAeropuertos.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edwin Henao\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Edwin Henao\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

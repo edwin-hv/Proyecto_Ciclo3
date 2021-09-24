@@ -1,0 +1,9 @@
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\bin\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.deps.json
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\bin\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.dll
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\bin\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.pdb
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.AssemblyInfo.cs
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.dll
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Dominio\obj\Debug\netstandard2.0\GestionAeropuertos.App.Dominio.pdb
