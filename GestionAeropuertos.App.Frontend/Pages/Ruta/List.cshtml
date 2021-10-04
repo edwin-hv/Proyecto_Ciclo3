@@ -1,0 +1,31 @@
+@page
+@model GestionAeropuertos.App.Frontend.Pages.ListRutaModel
+@{
+}
+
+<h1>Listado de Rutas</h1>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Origen</th>
+        <th>Destino</th>
+        <th>Tiempo estimado</th>
+      
+    </thead>
+    @foreach (var ruta in Model.Rutas)
+    {
+        <tr>
+            <td>@ruta.id</td>
+            <td>@ruta.origen</td>
+            <td>@ruta.destino</td>
+            <td>@ruta.tiempo_estimado</td>
+           
+            
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-rutaId="@ruta.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-rutaId="@ruta.id">Editar</a>
+              <a class="btn btn-danger" href="">Eliminar</a>
+              </td>
+        </tr>
+    }
+</table>

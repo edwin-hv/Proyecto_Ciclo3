@@ -1,0 +1,14 @@
+@page
+@model GestionAeropuertos.App.Frontend.Pages.DetailsAvionModel
+@{
+    var avion = Model.Avion;
+}
+
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"> <b>id: </b> @avion.id</li>
+  <li class="list-group-item"> <b>Marca: </b> @avion.marca</li>
+  <li class="list-group-item"> <b>Modelo: </b> @avion.modelo</li>
+  <li class="list-group-item"><b>numero de asientos: </b> @avion.numero_asientos</li>
+  <li class="list-group-item"><b>numero de baños: </b> @avion.numero_baños</li>
+  <li class="list-group-item"><b>capacidad en peso:</b> @avion.capacidad_peso</li>
+</ul>	

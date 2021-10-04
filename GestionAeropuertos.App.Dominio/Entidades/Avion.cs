@@ -10,5 +10,6 @@ namespace GestionAeropuertos.App.Dominio
         public int numero_asientos{get;set;}
         public int numero_baños{get;set;}
         public int capacidad_peso{get;set;}
+        
     }
 }

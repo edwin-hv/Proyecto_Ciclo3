@@ -1,0 +1,34 @@
+@page
+@model GestionAeropuertos.App.Frontend.Pages.ListAeropuertoModel
+@{
+}
+
+<h1>Listado de Aeropuertos</h1>
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Ciudad</th>
+        <th>Pais</th>
+        <th>Coordenada en X</th>
+        <th>Coordenada en Y</th>
+    </thead>
+    @foreach (var aeropuerto in Model.Aeropuertos)
+    {
+        <tr>
+            <td>@aeropuerto.id</td>
+            <td>@aeropuerto.nombre</td>
+            <td>@aeropuerto.ciudad</td>
+            <td>@aeropuerto.pais</td>
+            <td>@aeropuerto.coordenada_x</td>
+            <td>@aeropuerto.coordenada_y</td>
+            
+            
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-aeropuertoId="@aeropuerto.id"><i class="fas fa-adjust"></i>Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-aeropuertoId="@aeropuerto.id">Editar</a>
+              <a class="btn btn-danger" href="">Eliminar</a>
+              </td>
+        </tr>
+    }
+</table>

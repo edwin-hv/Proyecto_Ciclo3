@@ -1,16 +1,24 @@
 @page
+@model GestionAeropuertos.App.Frontend.Pages.FormAvionModel
 @{
+    var avion = Model.Avion;
 }
  
 <div class="text-center">
-<form action="">
-  <label for="nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-  <label for="edad" class="form-label">Edad:</label>
-  <input type="number" class="form-control" id="edad" name="edad" placeholder="Edad">
-  <label for="email" class="form-label">Email:</label>
-  <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+<form method="POST">
+  <label for="id" class="form-label">Id:</label>
+  <input type="number" class="form-control" id="id"="Id" asp-for="@avion.id">
+  <label for="marca" class="form-label">Marca:</label>
+  <input type="text" class="form-control" id="marca"der="Marca" asp-for="@avion.marca">
+  <label for="modelo" class="form-label">Modelo:</label>
+  <input type="number" class="form-control" id="modelo"lder="Modelo" asp-for="@avion.modelo">
+  <label for="numero_asientos" class="form-label">Numero de asientos:</label>
+  <input type="number" class="form-control" id="numero_asientos"placeholder="Numero de asientos" asp-for="@avion.numero_asientos">
+  <label for="numero_baños" class="form-label">Número de baños:</label>
+  <input type="number" class="form-control" id="numero_baños"laceholder="Número de baños" asp-for="@avion.numero_baños">
+  <label for="capacidad_peso" class="form-label">Capacidad en peso:</label>
+  <input type="number" class="form-control" id="capacidad_peso" placeholder="Capacidad en peso" asp-for="@avion.capacidad_peso">
   <hr>
   <button type="submit" class="btn btn-success">Enviar</button>
 </form>
-</div>
+</div> 
