@@ -8,45 +8,54 @@ namespace GestionAeropuertos.App.Persistencia.AppRepositorios
     public class RepositorioRutas
     {
         List<Ruta> rutas;
+        private readonly AppContext _appContext = new AppContext();   
 
-    public RepositorioRutas()
-        {
-            rutas= new List<Ruta>()
-            {
-                new Ruta{id=1,origen="A",destino= "B",tiempo_estimado= 3,},
-                new Ruta{id=2,origen="C",destino= "D",tiempo_estimado= 5},
-                new Ruta{id=3,origen="E",destino= "F",tiempo_estimado= 10}
-
-            };
-        }
+   
 
         public IEnumerable<Ruta> GetAll()
         {
-            return rutas;
+            return _appContext.rutas;
         }
 
         public Ruta GetRutaWithId(int id){
-            return rutas.SingleOrDefault(b => b.id == id);
+            return _appContext.rutas.Find(id);
         }
 
         public Ruta Create(Ruta newRuta)
         {
-           newRuta.id=rutas.Max(r => r.id) +1; 
-           rutas.Add(newRuta);
-           return newRuta;
+            var addRuta = _appContext.rutas.Add(newRuta);
+            _appContext.SaveChanges();
+            return addRuta.Entity;
+
         }
 
 
        public Ruta Update(Ruta newRuta){
-            var ruta= rutas.SingleOrDefault(b => b.id == newRuta.id);
+            var ruta = _appContext.rutas.Find(newRuta.id);
             if(ruta != null){
                 ruta.origen = newRuta.origen;
                 ruta.destino = newRuta.destino;
                 ruta.tiempo_estimado = newRuta.tiempo_estimado;
-                
+               
+                //Guardar en base de datos
+                 _appContext.SaveChanges();
             }
         return ruta;
         }
+
+        
+
+        public void Delete(int id)
+        {
+        var ruta = _appContext.rutas.Find(id);
+        if (ruta == null)
+            return;
+        _appContext.rutas.Remove(ruta);
+        _appContext.SaveChanges();
+        }
+
+        
+
  
     }
 }

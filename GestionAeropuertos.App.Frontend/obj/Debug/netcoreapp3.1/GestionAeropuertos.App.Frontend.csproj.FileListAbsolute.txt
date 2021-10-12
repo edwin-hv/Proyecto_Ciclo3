@@ -89,3 +89,4 @@ C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropu
 C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Ruta\Details.cshtml.g.cs
 C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Ruta\Edit.cshtml.g.cs
 C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Ruta\List.cshtml.g.cs
+C:\Users\Edwin Henao\Desktop\ProyectoCiclo3\GestionAeropuertos.App\GestionAeropuertos.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Ruta\Create.cshtml.g.cs

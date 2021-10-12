@@ -26,6 +26,8 @@ namespace GestionAeropuertos.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<RepositorioAviones, RepositorioAviones>();
+            services.AddSingleton<RepositorioRutas, RepositorioRutas>();
+            services.AddSingleton<RepositorioAeropuertos, RepositorioAeropuertos>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

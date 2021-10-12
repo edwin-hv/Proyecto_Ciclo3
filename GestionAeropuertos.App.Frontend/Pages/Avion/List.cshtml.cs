@@ -14,6 +14,8 @@ namespace GestionAeropuertos.App.Frontend.Pages
     {   
         private readonly RepositorioAviones repositorioaviones;
         public IEnumerable<Avion> Aviones {get;set;}
+        [BindProperty]
+        public Avion Avion  {get;set;}
         public ListAvionModel(RepositorioAviones repositorioaviones)
     {
         this.repositorioaviones=repositorioaviones;
@@ -23,6 +25,20 @@ namespace GestionAeropuertos.App.Frontend.Pages
         public void OnGet()
         {
                 Aviones=repositorioaviones.GetAll();
+
+       
         }
+        
+        public IActionResult OnPost()
+    {
+        if(Avion.id>0)
+        {
+        repositorioaviones.Delete(Avion.id);
+        }
+        return RedirectToPage("./List");
+    }
+
+
+        
     }
 }

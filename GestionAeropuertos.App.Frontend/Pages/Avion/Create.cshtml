@@ -6,18 +6,17 @@
  
 <div class="text-center">
 <form method="POST">
-  <label for="id" class="form-label">Id:</label>
-  <input type="number" class="form-control" id="id"="Id" asp-for="@avion.id">
+  
   <label for="marca" class="form-label">Marca:</label>
-  <input type="text" class="form-control" id="marca"der="Marca" asp-for="@avion.marca">
+  <input type="text" class="form-control" id="marca"der="Marca" asp-for="@avion.marca" required>
   <label for="modelo" class="form-label">Modelo:</label>
-  <input type="number" class="form-control" id="modelo"lder="Modelo" asp-for="@avion.modelo">
+  <input type="number" class="form-control" id="modelo"lder="Modelo" asp-for="@avion.modelo" required>
   <label for="numero_asientos" class="form-label">Numero de asientos:</label>
-  <input type="number" class="form-control" id="numero_asientos"placeholder="Numero de asientos" asp-for="@avion.numero_asientos">
+  <input type="number" class="form-control" id="numero_asientos"placeholder="Numero de asientos" asp-for="@avion.numero_asientos" required>
   <label for="numero_baños" class="form-label">Número de baños:</label>
-  <input type="number" class="form-control" id="numero_baños"laceholder="Número de baños" asp-for="@avion.numero_baños">
+  <input type="number" class="form-control" id="numero_baños"laceholder="Número de baños" asp-for="@avion.numero_baños" required>
   <label for="capacidad_peso" class="form-label">Capacidad en peso:</label>
-  <input type="number" class="form-control" id="capacidad_peso" placeholder="Capacidad en peso" asp-for="@avion.capacidad_peso">
+  <input type="number" class="form-control" id="capacidad_peso" placeholder="Capacidad en peso" asp-for="@avion.capacidad_peso" required>
   <hr>
   <button type="submit" class="btn btn-success">Enviar</button>
 </form>

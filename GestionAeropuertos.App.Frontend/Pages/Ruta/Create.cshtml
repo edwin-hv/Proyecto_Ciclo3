@@ -1,0 +1,33 @@
+@page
+@model GestionAeropuertos.App.Frontend.Pages.FormRutaModel
+@{
+    var ruta = Model.Ruta;
+}
+ 
+<div class="text-center">
+<form method="POST">
+  
+  <label for="origen" class="form-label">Origen:</label>
+  <select asp-for="@ruta.origen" class="form-control">
+        <option value="">Seleccione un aeropuerto</option>
+        @foreach (var aeropuerto in Model.aeropuertos)
+    {
+        <option value="@aeropuerto.id">@aeropuerto.nombre - @aeropuerto.ciudad</option>
+    }
+    </select>
+
+  <label for="destino" class="form-label">Destino:</label>  
+   <select asp-for="@ruta.destino" class="form-control">
+        <option value="">Seleccione un aeropuerto</option>
+        @foreach (var aeropuerto in Model.aeropuertos)
+    {
+        <option value="@aeropuerto.id">@aeropuerto.nombre - @aeropuerto.ciudad</option>
+    }
+    </select> 
+  <label for="tiempo_estimado" class="form-label">Tiempo Estimado:</label>
+  <input type="number" class="form-control" id="tiempo_estimado"placeholder="Tiempo Estimado" asp-for="@ruta.tiempo_estimado" required>
+ 
+  <hr>
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+</div> 

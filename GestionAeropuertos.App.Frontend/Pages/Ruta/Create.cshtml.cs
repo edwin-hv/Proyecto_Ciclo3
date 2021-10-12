@@ -9,20 +9,24 @@ using GestionAeropuertos.App.Dominio;
 
 namespace GestionAeropuertos.App.Frontend.Pages
 {
-    public class FormAvionModel : PageModel
+    public class FormRutaModel : PageModel
     {
-       private readonly RepositorioAviones repositorioaviones;
-       [BindProperty]
-        public Avion Avion{get;set;}
+       private readonly RepositorioRutas repositorioRutas;
+       private readonly RepositorioAeropuertos repositorioAeropuertos;
+       public IEnumerable<Aeropuerto> aeropuertos{get;set;}
 
-        public FormAvionModel(RepositorioAviones repositorioaviones)
+       [BindProperty]
+        public Ruta Ruta{get;set;}
+
+        public FormRutaModel(RepositorioRutas repositorioRutas, RepositorioAeropuertos repositorioAeropuertos)
        {
-            this.repositorioaviones=repositorioaviones;
+            this.repositorioRutas=repositorioRutas;
+            this.repositorioAeropuertos=repositorioAeropuertos;
        }
 
         public void OnGet()
         {
-                
+        aeropuertos=repositorioAeropuertos.GetAll();    
         }
         public IActionResult OnPost()
         {
@@ -31,7 +35,7 @@ namespace GestionAeropuertos.App.Frontend.Pages
                 return Page();
             }
             
-            Avion = repositorioaviones.Create(Avion);
+            Ruta = repositorioRutas.Create(Ruta);
             return RedirectToPage("./List");
         }
 
