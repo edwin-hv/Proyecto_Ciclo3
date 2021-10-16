@@ -4,7 +4,7 @@ using GestionAeropuertos.App.Dominio;
 namespace GestionAeropuertos.App.Persistencia
 {
     public class AppContext: DbContext{
-        public DbSet<Aeropuerto> Aeropuertos { get; set; }
+        public DbSet<Aeropuerto> aeropuertos { get; set; }
         public DbSet<Avion> Aviones { get; set; }
         public DbSet<Ruta> rutas { get; set; }
 
